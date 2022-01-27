@@ -13,7 +13,7 @@
 </head>
 <body>
 <h1>Create new Product</h1>
-<form action="/products?action=editPost" method="post">
+<form action="/products?action=createPost" method="post">
     <fieldset>
         <legend>Create Product</legend>
         <table>
@@ -28,16 +28,20 @@
                 <td><label for="name"></label><input type="text" name="name" id="name"></td>
             </tr>
             <tr>
-                <td>Email: </td>
-                <td><label for="email"></label><input type="text" name="email" id="email"></td>
+                <td>Price: </td>
+                <td><label for="price"></label><input type="text" name="price" id="price"></td>
             </tr>
             <tr>
                 <td>Address: </td>
-                <td><label for="address"></label><input type="text" name="address" id="address"></td>
+                <td><label for="quantity"></label><input type="text" name="quantity" id="quantity"></td>
+            </tr>
+            <tr>
+                <td>Address: </td>
+                <td><label for="description"></label><input type="text" name="description" id="description"></td>
             </tr>
             <tr>
                 <td></td>
-                <td><input type="submit" value="Create customer"></td>
+                <td><input type="submit" value="create"></td>
             </tr>
         </table>
     </fieldset>
